@@ -59,8 +59,8 @@ void  pegar_valores(long long int ** array,char nome_arquivo[]){ // da os valore
 
 }
 void test_algoritmos(long long int * array,int tam,int metodo){
-    clock_t start = clock();
-    clock_t end = clock();
+    clock_t start;
+    clock_t end;
     double tempo_total;
      switch ( metodo )
   {
